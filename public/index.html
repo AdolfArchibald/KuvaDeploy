@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuva Marketing</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/kuva-logo.png">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/kuva-logo.png" alt="Kuva Logo" class="logo"></a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#design-process">Design Process</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Heading Section -->
+    <section id="home" class="heading-section d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-1">KUVA</h1>
+            <p class="lead">Crafting Digital Experiences</p>
+            <a href="#design-process" class="btn btn-primary btn-lg rounded-pill smooth-scroll">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Design Process Section -->
+    <section id="design-process" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Process</h2>
+            <div class="row process-container">
+                <div class="col-md-2 col-12 mb-4">
+                    <div class="card process-card h-100 rounded-3 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/discovery.svg" alt="Discovery Icon" class="process-icon mb-3">
+                            <h5 class="card-title">Discover</h5>
+                            <p class="card-text">We understand your vision and goals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12 mb-4">
+                    <div class="card process-card h-100 rounded-3 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/design.svg" alt="Design Icon" class="process-icon mb-3">
+                            <h5 class="card-title">Design</h5>
+                            <p class="card-text">Crafting user-focused designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12 mb-4">
+                    <div class="card process-card h-100 rounded-3 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/development.svg" alt="Development Icon" class="process-icon mb-3">
+                            <h5 class="card-title">Develop</h5>
+                            <p class="card-text">Build Your Dream Website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12 mb-4">
+                    <div class="card process-card h-100 rounded-3 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/testing.svg" alt="Testing Icon" class="process-icon mb-3">
+                            <h5 class="card-title">Test</h5>
+                            <p class="card-text">Ensuring quality and functionality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12 mb-4">
+                    <div class="card process-card h-100 rounded-3 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="assets/icons/launch.svg" alt="Launch Icon" class="process-icon mb-3">
+                            <h5 class="card-title">Launch</h5>
+                            <p class="card-text">Deploying your site to the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <!-- Bootstrap Icons Sprite for Checkmarks -->
+            <svg display="none">
+                <symbol id="check" viewBox="0 0 16 16">
+                    <path d="M12.354 4.646a.5.5 0 0 0-.708 0L6 10.293 4.354 8.646a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l6-6a.5.5 0 0 0 0-.708z"/>
+                </symbol>
+            </svg>
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Static Website -->
+                <div class="col">
+                    <div class="card h-100 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Static Website</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Simple & Fast</h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Looks great on any screen</li>
+                                <li>Easy to find online</li>
+                                <li>Quick 3-day updates</li>
+                            </ul>
+                            <a href="#contact" class="w-100 btn btn-lg btn-primary rounded-pill" data-product="static">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dynamic Website -->
+                <div class="col">
+                    <div class="card h-100 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Dynamic Website</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Interactive & Scalable</h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Fun visitor interactions</li>
+                                <li>Saves customer info</li>
+                                <li>Fast 3-day updates</li>
+                            </ul>
+                            <a href="#contact" class="w-100 btn btn-lg btn-primary rounded-pill" data-product="dynamic">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Turbo Website -->
+                <div class="col">
+                    <div class="card h-100 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Premium Website</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Deluxe & Flexible</h5>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Unique design for you</li>
+                                <li>Boosts customer reach</li>
+                                <li>Next-day updates</li>
+                            </ul>
+                            <a href="#contact" class="w-100 btn btn-lg btn-primary rounded-pill" data-product="turbo">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center mb-4 mt-4">Compare Plans</h2>
+            <!-- Comparison Table Wrapper -->
+            <div class="table-wrapper rounded-3 mt-4" style="border: 2px solid black;">
+                <div class="table-responsive mt-3">
+                    <table class="table text-center rounded-3 compare_table" style="background-color: #EEEEEE !important;">
+                        <thead>
+                            <tr>
+                                <th style="width: 34%; border-color: black;"></th>
+                                <th style="width: 22%; border-color: black;">Static</th>
+                                <th style="width: 22%; border-color: black;">Dynamic</th>
+                                <th style="width: 22%; border-color: black;">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Custom Domain</th>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Secure Browsing</th>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Lifetime Support</th>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Responsive Design</th>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Basic SEO</th>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Interactive Features</th>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Data Storage</th>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Custom Design</th>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: black;">Advanced Marketing</th>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"></td>
+                                <td style="border-color: black;"><svg class="bi" width="24" height="24" role="img" aria-label="Included"><use xlink:href="#check"></use></svg></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start" style="border-color: #EEEEEE;">Update Speed (days)</th>
+                                <td style="border-color: #EEEEEE;">3</td>
+                                <td style="border-color: #EEEEEE;">3</td>
+                                <td style="border-color: #EEEEEE;">1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <!-- Fallback message -->
+                    <div id="form-message" class="mb-3 d-none">
+                        <script>
+                            const urlParams = new URLSearchParams(window.location.search);
+                            const message = urlParams.get('message');
+                            const error = urlParams.get('error');
+                            if (message) {
+                                document.write(`<div class="alert alert-success rounded-pill">${message}</div>`);
+                            } else if (error) {
+                                document.write(`<div class="alert alert-danger rounded-pill">${error}</div>`);
+                            }
+                        </script>
+                    </div>
+                    <form id="contact-form" novalidate>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <label for="name" class="form-label" id="name-label">First Name</label>
+                                <input type="text" class="form-control rounded-pill" id="name" name="name">
+                            </div>
+                            <div class="col-6">
+                                <label for="surname" class="form-label" id="surname-label">Surname</label>
+                                <input type="text" class="form-control rounded-pill" id="surname" name="surname">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-8">
+                                <label for="email" class="form-label" id="email-label">Email</label>
+                                <input type="text" class="form-control rounded-pill" id="email" name="email">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="referral" class="form-label" id="referral-label">Referral Code</label>
+                                <input type="text" class="form-control rounded-pill" id="referral" name="referral" placeholder="Optional Code">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="product" class="form-label" id="product-label">Select Product</label>
+                            <div class="product-buttons">
+                                <button type="button" class="btn btn-outline-primary rounded-pill me-2 mb-2 product-btn" data-product="static">Static Website</button>
+                                <button type="button" class="btn btn-outline-primary rounded-pill me-2 mb-2 product-btn" data-product="dynamic">Dynamic Website</button>
+                                <button type="button" class="btn btn-outline-primary rounded-pill me-2 mb-2 product-btn" data-product="turbo">Premium Website</button>
+                                <button type="button" class="btn btn-outline-primary rounded-pill mb-2 product-btn" data-product="enquiring">Just Enquiring</button>
+                            </div>
+                            <input type="hidden" id="product" name="product" value="">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label" id="message-label">More Info you think might help</label>
+                            <textarea class="form-control rounded-3" id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg rounded-pill w-100" id="submit-btn">Get My Website</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p>© 2025 Kuva. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Success Popup -->
+    <div id="success-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <span id="close-popup" class="close">×</span>
+            <span class="checkmark">✔</span>
+            <h3>We got your info!</h3>
+            <p>We'll be in touch soon.</p>
+        </div>
+    </div>
+
+    <!-- Error Popup -->
+    <div id="error-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <span id="close-error-popup" class="close">×</span>
+            <span class="error-x">✖</span>
+            <h3>Something went wrong</h3>
+            <p id="errorTextField">This issue has been logged</p>
+        </div>
+    </div>
+
+    <!-- Loading Popup -->
+    <div id="loading-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <span class="loader"></span>
+            <h3>Submitting...</h3>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
